@@ -43,16 +43,29 @@
                 <form class="bg-dark">
                     <p> Filter Search</p>
                     <ul class="list-group " class="bg-dark" style="font-family: inherit; font-size: 1rem">
-                        <li class="list-group-item" style="font-family: inherit; font-size: 1rem">
+                        <li class="list-group-item bg-dark" style="font-family: inherit; font-size: 1rem">
                             <lable for="date" class="bg-dark"> Enter Date</lable>
                             <input type="text" placeholder="1/10/2010" id="datetime"/>
-
                         </li>
-                        <li class="list-group-item" style="font-family: inherit; font-size: 1rem">
-                            <button id="filter-btn" type="button" class="btn btn-dark">Filter Table</button>
-
+                        <li class="list-group-item bg-dark" style="font-family: inherit; font-size: 1rem">
+                            <lable for="city" class="bg-dark"> Enter a city</lable>
+                            <input type="text" placeholder="dallas" id="city"/>
                         </li>
+                        <li class="list-group-item bg-dark" style="font-family: inherit; font-size: 1rem">
+                            <lable for="state" class="bg-dark"> Enter a State</lable>
+                            <input type="text" placeholder="co" id="state"/>
+                        </li>
+                        <li class="list-group-item bg-dark" style="font-family: inherit; font-size: 1rem">
+                            <lable for="country" class="bg-dark"> Enter a country</lable>
+                            <input type="text" placeholder="us" id="country"/>
+                        </li>
+                        <li class="list-group-item bg-dark" style="font-family: inherit; font-size: 1rem">
+                            <lable for="shape" class="bg-dark"> Enter a shape</lable>
+                            <input type="text" placeholder="circle" id="shape"/>
+                        </li>
+    
                     </ul>
+                    <button id="filter-btn" type="button" class="btn btn-default">Filter Table</button>
                 </form>
             </div>
             <div class="col-md-9">
@@ -72,9 +85,9 @@
                 </table>
             </div>
         </div>
-    </div>       
+    </div>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
-        <script src="static/js/data.js"></script>
-        <script src="static/js/app.js"></script>
+        <script src="static/JS/data.js"></script>
+        <script src="static/JS/app.js"></script>           
 </body>
 </html>
