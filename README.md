@@ -10,93 +10,20 @@ Dana has asked our team to assist in creating a dynamic webpage of UFO data. Dan
 ## Resources
 - - Data Source: data.js, starter_code.js
 - - Software: JavaScript, Bootstrap, D3, HTML
-## Results 
-Based on the results of the above listed summaries our team was able to compare the results to our original summaries to see how the removal of the Thomas High School 9th graders reading and math scores affected the following:
-1.	The District Summary
-2.	The School Summary
-3.	Thomas High schools overall Performance
-4.	Math and reading scores by grade
-5.	Math and reading scores by school size
-6.	Math and reading scores by type
-### The District Summary
-Below is our original District Summary
-![ Original_District Summary]( https://github.com/lmacera/School_District_Analysis/blob/main/Resources%202/Original_District%20Summary.PNG )
+## UFO Website Basics
+The webpage is set up in a simple but interactive manner. When the user enters the index.html file the top of the webpage will show a brief history of the UFO research history and an introduction to the data provided in the created table.
+### The Data
+The data in the table presents recorded sightings of UFOs all over the world. It provides a record of the date of the sighting, the city, state, and country of the sighting, the shape of the object spotted, and a duration and brief description of the sighting.
+To filer the table the user can enter specific data for the Date, City, State, Country, or Shape in the respective field under the Filter Search section, as shown in the below image.
 
-Shown below is he updated District Summary with the Thomas High School 9th grader grades removed 
-![ New_District Summary]( https://github.com/lmacera/School_District_Analysis/blob/main/Resources%202/New_District%20Summary.PNG )
+![ Fig 1]( PATH )
+Once the user enters the wanted criteria the table will automatically update with fields containing the specific criteria. As shown in the image below we have entered criteria for the date, city, and state we would like data on. The filter search and our table show only data that matches the criteria specified. In this case we see 4 recorded sightings on 1/1/2010 in El Cajon, California. 
+![ Fig 2]( PATH )
 
-**Results:**
--	Total School Count, Total Students, and Total budget were unchanged.
--	Average Reading Score remained unchanged.
--	The Average Math Score, Percentage Passing Math, Percentage Passing Reading, and Overall percentage Passing Math and Reading, saw a slight downturn by approximately 0.02%
-### The School Summary
-Below is our original School Summary.
-![Original_School_Summary]( https://github.com/lmacera/School_District_Analysis/blob/main/Resources%202/Original_School_Summary.PNG )
-
-Below is the updated School Summary with the Thomas High School 9th grader grades removed. 
-![New_School_Summary]( https://github.com/lmacera/School_District_Analysis/blob/main/Resources%202/New_School_Summary.PNG )
-
-**Results:**
--	Only difference between the two summaries was in Thomas High School results.
--	For the Thomas High School information, the Total Students, Total Budget, and Per Student Budget remained the same.
--	For The Thomas High School scores and score percentages there was a slight downturn.
--	Between the Average Math and Reading score the Average Math Score decreased the most with an approximate 0.06% decrease, thus the Percentage Passing Math and the Overall Percentage of Reading and Math dropped similarly. 
--	If we look at the School Summary before removing the Thomas High School 9th graders from the count then we see that the Passing and Overall Percentages of Thomas High School were between 65%-66%, but these low percentages were driven by the 9th graders being included in the total count driving down the overall average. See below image that demonstrates what Thomas High school math and reading percentage passing scores were before removing the 9th graders form the count.
-
-![ _ Thomas_High_ w-9th Grade]( https://github.com/lmacera/School_District_Analysis/blob/main/Resources%202/_%20Thomas_High_%20w-9th%20Grade.PNG )
-
-### Thomas High schools Overall Performance
-As shown in the images below removing the 9th graders math and reading scores from the dataset did not change how Thomas High School a ranked among the 15 schools in the data set. Thomas High School still ranked as the second highest school in terms of the Overall Passing Percentage.
-
-**Original Ranking** 
-![Original_School_Ranking]( https://github.com/lmacera/School_District_Analysis/blob/main/Resources%202/Original_School_Ranking.PNG )
-
-**New Ranking**
-![New_School_Ranking]( https://github.com/lmacera/School_District_Analysis/blob/main/Resources%202/New_School_Ranking.PNG )
-
-### Math and Reading Scores by Grade
-From the below images we can see the only change is scores by grade was that Thomas High School 9th grade scores are now 0. Removing the Thomas High School 9th graders did not change 10th – 12th grade scores at Thomas High School, nor did it change the 9th-12th grade scores at any other school.
-
-**Original Math By Grade**
-![ Original_Math_Scores_By_Grade]( https://github.com/lmacera/School_District_Analysis/blob/main/Resources%202/Original_Math_Scores_By_Grade.PNG )
-
-**New Math By Grade**
-![ New_Math_By_Grade]( https://github.com/lmacera/School_District_Analysis/blob/main/Resources%202/New_Math_By_Grade.PNG )
-
-**Original Reading By Grade**
-![ Original_Reading_Scores_By_Grade]( https://github.com/lmacera/School_District_Analysis/blob/main/Resources%202/Original_Reading_Scores_By_Grade.PNG )
-
-**New Reading By Grade**
-![ New_Reading_By_Grade]( https://github.com/lmacera/School_District_Analysis/blob/main/Resources%202/New_Reading_By_Grade.PNG )
-
-### Scores By School Spending
-As shown below, removing the 9th grader scores from the spending analysis did not affect the spending analysis.
-
-**Original Scores By Spending**
-![ Original_Scores_By_Spending]( Link to Path )
-
-**New Scores By Spending**
-![ New_Scores_By_Spending]( Link to Path )
-
-### Scores By School Size
-As shown below, removing the 9th grader scores from the school size analysis did not affect the size analysis.
-
-**Original Scores By School Size**
-
-![ Original_Scores_By_Size]( https://github.com/lmacera/School_District_Analysis/blob/main/Resources%202/Original_Scores_By_Size.PNG )
-
-**New Scores By School Size**
-![ New_Scores_By_Size]( https://github.com/lmacera/School_District_Analysis/blob/main/Resources%202/New_Scores_By_Size.PNG )
-
-### Scores By School Type
-As shown below, removing the 9th grader scores from the school type analysis did not affect the type analysis.
-
-**Original Scores By School Type**
-![Original_Scores_By_Type]( https://github.com/lmacera/School_District_Analysis/blob/main/Resources%202/Original_Scores_By_Size.PNG )
-
-**New Scores By School Type**
-![New_Scores_By_Type]( https://github.com/lmacera/School_District_Analysis/blob/main/Resources%202/New_Scores_By_Type.PNG )
+It is important to note that the filter criteria has to be entered exactly how it is presented on the table, otherwise it will not filter the data accordingly. As an example, if we enter the same criteria as above but in a different format (i.e. added capitalization) the same data will not be presented. See the image below showing the search and the resulting data returned, or lack thereof.
+![ Fig 3]( PATH )
 
 ## Summary
-In summary, not many aspects of our analysis changed after removing the 9th grader math and reading scores of the Thomas High School students. From the District Summary analysis, we can see the items that decreased were the Total Average Math and Reading Scores, Total Percentage Passing Math and Reading, and the Overall Percentage Passing both Math and Reading. Additionally, with the School Summary analysis we can see Thomas High Schools Average Math and Reading Scores, Percentage Passing Math and Reading, and the Overall Percentage Passing both Math and Reading decreased. Though these items decreased from our original analysis the amounts did not decrease significantly.
+In summary the webpage is visually appealing, and the table summarizes the data on various UFO sightings in a dynamic manner. However, as mentioned above a drawback to the current design in the lack of variability in which the filter criteria can be entered. Some recommendations for further development would be to expand the filter criteria formatting, so various forms of the criteria can be entered. Additionally, it would be beneficial to add an error message letting the user know if an invalid format is entered into the filter criteria. For example, if someone entered the date as 1/2010 an error would tell the user the format needs to be entered as MM/DD/YYYY. An addition outside of the filter criteria, would be added visualization. For example, if we filter for sightings in California, it would be beneficial to have an option to see a bar graph showing the frequency of sightings per city in California.
+
 
