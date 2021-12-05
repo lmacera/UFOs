@@ -20,11 +20,9 @@ To filer the table the user can enter specific data for the Date, City, State, C
 Once the user enters the wanted criteria the table will automatically update with fields containing the specific criteria. As shown in the image below we have entered criteria for the date, city, and state we would like data on. The filter search and our table show only data that matches the criteria specified. In this case we see 4 recorded sightings on 1/1/2010 in El Cajon, California. 
 
 ![ Fig 2]( https://github.com/lmacera/UFOs/blob/main/Resources/Fig%202.PNG )
-
 It is important to note that the filter criteria has to be entered exactly how it is presented on the table, otherwise it will not filter the data accordingly. As an example, if we enter the same criteria as above but in a different format (i.e. added capitalization) the same data will not be presented. See the image below showing the search and the resulting data returned, or lack thereof.
 
 ![ Fig 3]( https://github.com/lmacera/UFOs/blob/main/Resources/Fig%203.png )
-
 ## Summary
 In summary the webpage is visually appealing, and the table summarizes the data on various UFO sightings in a dynamic manner. However, as mentioned above a drawback to the current design in the lack of variability in which the filter criteria can be entered. Some recommendations for further development would be to expand the filter criteria formatting, so various forms of the criteria can be entered. Additionally, it would be beneficial to add an error message letting the user know if an invalid format is entered into the filter criteria. For example, if someone entered the date as 1/2010 an error would tell the user the format needs to be entered as MM/DD/YYYY. An addition outside of the filter criteria, would be added visualization. For example, if we filter for sightings in California, it would be beneficial to have an option to see a bar graph showing the frequency of sightings per city in California.
 
