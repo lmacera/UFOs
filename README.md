@@ -17,7 +17,6 @@ The data in the table presents recorded sightings of UFOs all over the world. It
 To filer the table the user can enter specific data for the Date, City, State, Country, or Shape in the respective field under the Filter Search section, as shown in the below image.
 
 ![ Fig 1]( https://github.com/lmacera/UFOs/blob/main/Resources/Fig%201.PNG )
-
 Once the user enters the wanted criteria the table will automatically update with fields containing the specific criteria. As shown in the image below we have entered criteria for the date, city, and state we would like data on. The filter search and our table show only data that matches the criteria specified. In this case we see 4 recorded sightings on 1/1/2010 in El Cajon, California. 
 
 ![ Fig 2]( https://github.com/lmacera/UFOs/blob/main/Resources/Fig%202.PNG )
