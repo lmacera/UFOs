@@ -1,7 +1,7 @@
 # UFOs
 
 ## Project Overview
-Dana has asked our team to assist in creating a dynamic webpage of UFO data. Dana has asked our team to build a table using data stored in a JavaScript array, create filters to make a table fully dynamic, and present the table on a HTML page for easy viewing. To provide an in-depth analysis of the UFO data, Dana would like to be able to filter the UFO table by:
+Dana, a UFO enthusiast, has asked our team to assist in creating a dynamic webpage of UFO data. The webpage needs to include a table with data stored in a JavaScript array, have filters to make a table fully dynamic, and present on a HTML page for easy viewing. To provide an in-depth analysis of the UFO data, Dana would like to be able to filter the UFO table by: 
 - Date
 - City
 - State
@@ -11,14 +11,14 @@ Dana has asked our team to assist in creating a dynamic webpage of UFO data. Dan
 - Data Source: data.js, starter_code.js
 - Software: JavaScript, Bootstrap, D3, HTML
 ## UFO Website Basics
-The webpage is set up in a simple but interactive manner. When the user enters the index.html file the top of the webpage will show a brief history of the UFO research history and an introduction to the data provided in the created table.
+The webpage is set up in a simple but interactive manner. When the user enters the index.html file the top of the webpage will show a brief history of the UFO research  and an introduction to the data provided in the created table.
 ### The Data
-The data in the table presents recorded sightings of UFOs all over the world. It provides a record of the date of the sighting, the city, state, and country of the sighting, the shape of the object spotted, and a duration and brief description of the sighting.
-To filer the table the user can enter specific data for the Date, City, State, Country, or Shape in the respective field under the Filter Search section, as shown in the below image.
+The data in the table presents recorded sightings of UFOs all over the world. It provides a record of the date, city, state, and country of the sighting, the shape of the object spotted, and a duration and brief description of the sighting.
+To filter the table the user can enter specific data for the Date, City, State, Country, or Shape in the respective field under the Filter Search section, as shown in the below image.
 
 ![ Fig 1]( https://github.com/lmacera/UFOs/blob/main/Resources/Fig%201.PNG )
 
-Once the user enters the wanted criteria the table will automatically update with fields containing the specific criteria. As shown in the image below we have entered criteria for the date, city, and state we would like data on. The filter search and our table show only data that matches the criteria specified. In this case we see 4 recorded sightings on 1/1/2010 in El Cajon, California. 
+Once the user enters the wanted criteria, the table will automatically update with fields containing the specific criteria. As shown in the image below we have entered criteria for the date, city, and state we would like data on. The filter search and our table show only data that matches the criteria specified. In this case we see 4 recorded sightings on 1/1/2010 in El Cajon, California. 
 
 ![ Fig 2]( https://github.com/lmacera/UFOs/blob/main/Resources/Fig%202.PNG )
 
